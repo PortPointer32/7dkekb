@@ -1,0 +1,14 @@
+[Unit]
+Description=7dkekb
+After=network.target
+
+[Service]
+User=str
+Group=str
+
+WorkingDirectory=/home/str/7dkekb/
+Environment="PYTHONPATH=/home/str/7dkekb/"
+ExecStart=/home/str/7dkekb/.venv/bin/python /home/str/7dkekb/bot_main.py
+
+[Install]
+WantedBy=multi-user.target
