@@ -92,10 +92,10 @@ def bot_init(event_loop, token):
         btn_my_bot = InlineKeyboardButton(text="Мои боты", callback_data="my_bot")
         btn_ref = InlineKeyboardButton(text="Реферальная программа", callback_data="ref")
         btn_last_order = InlineKeyboardButton(text="Последний заказ", callback_data="last_order")
-        btn_operator = InlineKeyboardButton(text="Оператор", url="https://t.me/afffrrnt")
-        btn_support = InlineKeyboardButton(text="Тех.поддержка", url="https://t.me/eco0u")
-        btn_2 = InlineKeyboardButton(text="Доктор", url="https://t.me/dogdok45")
-        btn_1 = InlineKeyboardButton(text="Работа", url="https://t.me/dengi_delay777")
+        btn_operator = InlineKeyboardButton(text="Оператор", url="https://t.me/affrront")
+        btn_support = InlineKeyboardButton(text="Тех.поддержка", url="https://t.me/ecocou")
+        btn_2 = InlineKeyboardButton(text="Доктор", url="https://t.me/doggok45")
+        btn_1 = InlineKeyboardButton(text="Работа", url="https://t.me/mateton")
         return keyboard.add(btn_balance).add(btn_my_bot).add(btn_ref).add(btn_last_order).add(btn_operator).add(
             btn_support).add(btn_2).add(btn_1)
 
